@@ -22,6 +22,17 @@ var kItemsWithMaximumSum = function (numOnes, numZeros, numNegOnes, k) {
 
     return numOnes + k_remaining * -1;
 };
+
+/** Single statement alternative */
+// var kItemsWithMaximumSum = function (numOnes, numZeros, numNegOnes, k) {
+//     // Good luck reading that (:
+//     return numOnes + numZeros - k >= 0
+//         ? k > numOnes
+//             ? numOnes
+//             : k
+//         : numOnes + Math.abs(numOnes + numZeros - k) * -1;
+// };
+
 const main = () => {
     // example1:
     let numOnes = 3;
