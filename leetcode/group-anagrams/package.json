@@ -1,0 +1,12 @@
+{
+  "name": "group-anagrams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "groupAnagrams.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
