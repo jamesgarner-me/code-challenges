@@ -20,7 +20,7 @@ public class SolutionTest {
     @Test
     void getDirectionsTestScenario2() {
         // Setup
-        // [5,1,2,3,null,6,4] - https://assets.leetcode.com/uploads/2021/11/15/eg1.png
+        // [2,1] - https://assets.leetcode.com/uploads/2021/11/15/eg2.png
         TreeNode node1 = new TreeNode(1, null, null);
         TreeNode root = new TreeNode(2, node1, null);
 
